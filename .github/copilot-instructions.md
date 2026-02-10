@@ -112,3 +112,8 @@ EXCEPTION
 - Lookup type usage for dynamic configuration (vs hard-coded values)
 - Standard audit trail using FND APIs (`fnd_global.user_id`, `SYSDATE`)
 
+- what are my team's coding preferences?
+- Does this code follow my team's standards?
+
+.
+
