@@ -1,4 +1,4 @@
--- Test
+-- Test3344
 CREATE OR REPLACE PACKAGE emp_pkg AS
   PROCEDURE process_employees;
 END emp_pkg;
@@ -13,6 +13,7 @@ CREATE OR REPLACE PACKAGE BODY emp_pkg AS
     v_emp_id     employees.employee_id%TYPE;
     v_emp_name   employees.first_name%TYPE;
     v_salary     employees.salary%TYPE;
+fff number;
 
   BEGIN
     FOR emp_rec IN emp_cur LOOP
@@ -31,4 +32,5 @@ CREATE OR REPLACE PACKAGE BODY emp_pkg AS
 
 END emp_pkg;
 /
+
 
