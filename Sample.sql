@@ -31,4 +31,5 @@ CREATE OR REPLACE PACKAGE BODY emp_pkg AS
 
 END emp_pkg;
 /
-
+SHOW ERROR;
+EXIT; 
